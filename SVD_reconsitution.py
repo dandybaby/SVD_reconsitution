@@ -15,7 +15,7 @@ def get_image_feature(s, k):
     plt.imshow(temp, cmap=plt.cm.gray, interpolation='nearest')
     plt.show()
 
-    
+
 # 加载256色图片
 image = Image.open('./vivi.jpg')
 L = image.convert('L')
